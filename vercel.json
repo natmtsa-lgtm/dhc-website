@@ -1,0 +1,6 @@
+{
+  "headers": [
+    { "source": "/files/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" } ] },
+    { "source": "/binder-download-tk7m9q2c.html", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" } ] }
+  ]
+}
