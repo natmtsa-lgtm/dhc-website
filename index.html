@@ -54,7 +54,10 @@ h2{font-size:clamp(1.7rem,3.5vw,2.4rem);margin-bottom:18px}
 .contents-list{list-style:none;margin:18px 0 26px}
 .contents-list li{padding:7px 0 7px 30px;position:relative}
 .contents-list li::before{content:"";position:absolute;left:0;top:14px;width:16px;height:16px;border-radius:4px;background:var(--cream-2);border:2px solid var(--terra)}
-.soon{display:inline-block;background:var(--cream-2);border:1.5px solid var(--terra);color:var(--terra-dark);border-radius:999px;padding:8px 18px;font-weight:600;font-size:.95rem}
+.buy-row{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.btn-buy{background:var(--terra);color:#fff;padding:15px 30px;border-radius:999px;text-decoration:none;font-weight:700;font-size:1.05rem;display:inline-block}
+.btn-buy:hover{background:var(--terra-dark)}
+.buy-note{font-size:.85rem;color:var(--muted)}
 
 .alt{background:var(--cream-2)}
 .about-card{max-width:720px;margin:0 auto;text-align:center}
@@ -117,7 +120,10 @@ footer p{margin-bottom:12px;line-height:1.6}
           <li><strong>Legal &amp; Planning Checklists</strong> — separate pages for Canada and the United States</li>
           <li><strong>Your Own Oxygen Mask</strong> — a section that is only about you</li>
         </ul>
-        <span class="soon">Coming soon — join the list below to be first to know</span>
+        <div class="buy-row">
+          <a class="btn btn-buy" href="https://buy.stripe.com/dRmcN6gvM0Qob758dKefC00">Get the Care Binder — CA$14.99</a>
+          <span class="buy-note">Instant PDF download · 56 pages · secure checkout by Stripe</span>
+        </div>
       </div>
       <div class="pages">
         <img src="cover_full.png" alt="Care Binder cover">
