@@ -43,6 +43,13 @@ nav{max-width:1040px;margin:0 auto;padding:14px 24px;display:flex;align-items:ce
 .btn{display:inline-block;padding:14px 28px;border-radius:999px;text-decoration:none;font-weight:600}
 .btn-primary{background:var(--teal);color:#fff}.btn-primary:hover{background:var(--teal-dark)}
 .btn-ghost{border:2px solid var(--teal);color:var(--teal)}.btn-ghost:hover{background:var(--teal);color:#fff}
+.hero-eyebrow{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--terra);font-weight:700;margin-bottom:16px}
+.hero .sub strong{color:var(--teal)}
+.hero-signup{max-width:480px;margin:10px auto 12px}
+.hero-signup .ml-embedded{min-height:0}
+.hero-micro{font-size:.85rem;color:var(--muted);margin-bottom:16px}
+.hero-secondary{font-size:.95rem;color:var(--muted)}
+.hero-secondary a{color:var(--teal);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 
 section{padding:72px 0}
 .eyebrow{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--terra);font-weight:700;margin-bottom:10px}
@@ -94,15 +101,17 @@ footer p{margin-bottom:12px;line-height:1.6}
 </header>
 
 <main id="top">
-  <div class="hero">
+  <div class="hero" id="signup">
     <div class="wrap">
-      <h1>The Dementia House Call <span class="accent">Care Binder</span></h1>
-      <p class="tag">Plain-language dementia education from a physician who makes house calls — for the family members who do the real, daily work of caregiving.</p>
-      <p class="sub">No jargon, no fear-mongering, no miracle promises. Just the practical things a doctor wishes every family knew, explained the way we'd explain them at your kitchen table.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="#binder">See the Care Binder</a>
-        <a class="btn btn-ghost" href="#signup">Get the free letters</a>
+      <p class="hero-eyebrow">Dementia care, in plain language</p>
+      <h1>For the one who <span class="accent">handles everything.</span></h1>
+      <p class="tag">Plain-language dementia help from a physician who makes house calls — what to watch for, what to ask, and what to say at the next appointment. No jargon, no fear-mongering.</p>
+      <p class="sub"><strong>Start free with the one-pager caregivers keep on the fridge:</strong> When to Call the Doctor vs When to Go — the calm traffic-light guide for the worrying moments. Plus short, practical letters.</p>
+      <div class="hero-signup">
+        <div class="ml-embedded" data-form="8lYVK3"></div>
       </div>
+      <p class="hero-micro">Free · no spam · unsubscribe anytime · from a Canadian physician</p>
+      <p class="hero-secondary">Just here for the Care Binder? <a href="#binder">See it here →</a></p>
     </div>
   </div>
 
@@ -144,13 +153,13 @@ footer p{margin-bottom:12px;line-height:1.6}
     </div>
   </section>
 
-  <section id="signup">
+  <section class="alt">
     <div class="wrap">
       <div class="signup-box">
         <p class="eyebrow">The free email list</p>
         <h2 style="font-size:1.6rem">Short, practical letters for caregivers</h2>
-        <p>What to watch for, what to ask, and the occasional permission slip — straight to your inbox. Free, no spam, unsubscribe anytime.</p>
-        <div class="ml-embedded" data-form="8lYVK3"></div>
+        <p>What to watch for, what to ask, and the occasional permission slip — plus the free one-pager, straight to your inbox. Free, no spam, unsubscribe anytime.</p>
+        <a class="btn btn-primary" href="#signup">Get the free guide + letters</a>
       </div>
     </div>
   </section>
