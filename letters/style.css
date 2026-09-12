@@ -32,3 +32,15 @@ footer .fwrap{max-width:1040px;margin:0 auto;padding:0 24px}
 .postlist li{background:#fff;border:1.5px solid var(--sand);border-radius:14px;padding:24px 28px;margin-bottom:18px}
 .postlist a.title{font-family:'Fraunces',Georgia,serif;font-size:1.35rem;color:var(--teal);text-decoration:none;font-weight:600}
 .postlist p{color:var(--muted);margin:8px 0 0;font-size:.95rem}
+
+/* --- Two-part end-of-letter CTA: free capture + topic-matched product --- */
+.cta-stack{margin:44px 0 8px}
+.cta-stack .cta{margin:0 0 18px}
+.cta-free{background:var(--cream-2);border-color:var(--teal)}
+.cta-eyebrow{font-family:'Inter',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--terra);margin:0 0 8px}
+.cta-free .cta-lead{color:var(--ink);font-size:1.02rem;margin-bottom:16px}
+.cta-free .ml-embedded{max-width:420px;margin:0 auto}
+.cta-micro{font-size:.78rem;color:var(--muted);margin:12px 0 0}
+.cta-product{background:#fff}
+@media(max-width:600px){.cta-stack .cta{padding:22px 20px}}
